@@ -68,7 +68,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/jam-icons/css/jam.min.css"
+      />
+    </Helmet>
   )
 }
 
